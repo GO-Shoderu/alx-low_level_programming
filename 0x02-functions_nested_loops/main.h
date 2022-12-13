@@ -4,6 +4,7 @@
 /**
  * _putchar - prints input using standard library
  * @c: The character to print
+ * Return: 1 is success
  *
  * print_alphabet - prints all the alphabets in lowercase
  *
@@ -15,8 +16,9 @@
  * These functions are initialized in the .c file
  */
 
-void _putchar(char c);
+int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
+int _islower(int c);
 
 #endif
