@@ -7,6 +7,8 @@
  *
  * print_alphabet - prints all the alphabets in lowercase
  *
+ * print_alphabet_x10 - prints all the alphabets in lowercase ten times
+ *
  * File: main.h
  * Author: Gabriel Shoderu
  * A header file containing function declarations
@@ -15,5 +17,6 @@
 
 void _putchar(char c);
 void print_alphabet(void);
+void print_alphabet_x10(void);
 
 #endif

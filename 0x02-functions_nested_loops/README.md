@@ -16,5 +16,10 @@ NB: Before running any scripts please execute the command below for each respect
 	1-alphabet.c
 		- this C program will print out the alphabets in lowercase
 		- you will need to execute the code below to test the script
-			./1-compiler
+			./1-alphabet
+	
+	2-print_alphabet_x10.c
+		- this C program will print out the alphabets in lowercase ten times
+		- you will need to execute the code below to test the file
+			./2-alphabet_x10
 
