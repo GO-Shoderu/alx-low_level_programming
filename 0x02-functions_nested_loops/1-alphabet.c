@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * main- this is the entry point of the program
+ * print_alphabet - this is the entry point of the program
  * Description: this function prints the alphabets in lowercase
- * Return: this returns a default value of 0
-*/
+ */
 
-int main(void)
+void print_alphabet(void)
 {
 	int alphabet;
 
@@ -19,6 +18,4 @@ int main(void)
 			_putchar('\n');
 		}
 	}
-
-	return (0);
 }
