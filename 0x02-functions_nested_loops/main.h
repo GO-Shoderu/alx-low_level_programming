@@ -2,15 +2,18 @@
 #define MAIN_H
 
 /**
- * _putchar - prints inputed c input
+ * _putchar - prints input using standard library
  * @c: The character to print
+ *
+ * print_alphabet - prints all the alphabets in lowercase
  *
  * File: main.h
  * Author: Gabriel Shoderu
- * Description: a header file containing function declarations
+ * A header file containing function declarations
  * These functions are initialized in the .c file
  */
 
 void _putchar(char c);
+void print_alphabet(void);
 
 #endif

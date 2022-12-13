@@ -2,20 +2,19 @@
 
 /**
  * main- this is the entry point of the program
- * Description: this function prints out "_putchar"
+ * Description: this function prints the alphabets in lowercase
  * Return: this returns a default value of 0
 */
 
 int main(void)
 {
-	int i;
-	char output[8] = "_putchar";
+	int alphabet;
 
-	for (i = 0; i < 8; i++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		_putchar(output[i]);
+		_putchar(alphabet);
 
-		if (i == 7)
+		if (alphabet == 'z')
 		{
 			_putchar('\n');
 		}
