@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * times_table - this is the entry point of the program
  * Description: this function returns 1 or 0
  */
-
 void times_table(void)
 {
 	int i;
@@ -32,9 +30,7 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-
 		}
-
 		_putchar('\n');
 	}
 }
