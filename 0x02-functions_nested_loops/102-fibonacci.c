@@ -11,9 +11,6 @@ int main(void)
 	accumulator_1 = 0;
 	accumulator_2 = 1;
 
-	printf("%ld, ", accumulator_1);
-	printf("%ld, ", accumulator_2);
-
 	for (n = 0; n <= 49 ; n++)
 	{
 		temp = accumulator_1 + accumulator_2;
