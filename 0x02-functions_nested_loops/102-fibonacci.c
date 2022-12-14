@@ -14,13 +14,13 @@ int main(void)
 	printf("%ld, ", accumulator_1);
 	printf("%ld, ", accumulator_2);
 
-	for (n = 0; n <= 48 ; n++)
+	for (n = 0; n <= 49 ; n++)
 	{
 		temp = accumulator_1 + accumulator_2;
 		accumulator_1 = accumulator_2;
 		accumulator_2 = temp;
 
-		if (n == 48)
+		if (n == 49)
 		{
 			printf("%ld", accumulator_2);
 		} else
