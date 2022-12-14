@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	
+
 	unsigned long a = 0, b = 1, iterator = 0, sum = 0;
 
 	while (iterator <= 4000000)
