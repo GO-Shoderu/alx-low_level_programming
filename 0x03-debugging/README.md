@@ -14,3 +14,6 @@ NB: Before running any scripts please execute the command below for each respect
 	1-main.c
 		- this C program contains the commented line that causes an infinite loop
 
+	2-largest_number.c, main.h
+		- this C program will print out the largest number between 3 inputed numbers
+
