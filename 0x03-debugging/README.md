@@ -11,3 +11,6 @@ NB: Before running any scripts please execute the command below for each respect
 	0-main.c, main.h
 		- this C program will be testing the positivie_or_negative() function
 
+	1-main.c
+		- this C program contains the commented line that causes an infinite loop
+
