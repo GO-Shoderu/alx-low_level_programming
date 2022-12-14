@@ -3,6 +3,7 @@
 /**
  * print_to_98 - this is the entry point of the program
  * Description: this function returns 1 or 0
+ * @n: takes in a value to be printed from
  */
 void print_to_98(int n)
 {
@@ -26,4 +27,4 @@ void print_to_98(int n)
 	}
 
 	printf("\n");
-}	
+}
