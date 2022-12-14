@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_baurer - this is the entry point of the program
+ * jack_bauer - this is the entry point of the program
  * Description: this function returns 1 or 0
  */
 
