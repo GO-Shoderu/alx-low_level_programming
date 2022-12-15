@@ -28,8 +28,13 @@ NB: Before running any scripts please execute the command below for each respect
 		- you will need to execute the code below to test the script
 			./3-print_numbers
 
-	4-print_numbers.c
+	4-print_most_numbers.c
                 - this c program will print out 0 - 9 excluding 2 and 4
                 - you will need to execute the code below to test the script
-                        ./4-print_numbers
+                        ./4-print_most_numbers
+
+	5-more_numbers.c
+                - this c program will print out 0 - 14 x10
+                - you will need to execute the code below to test the script
+                        ./5-more_numbers
 
