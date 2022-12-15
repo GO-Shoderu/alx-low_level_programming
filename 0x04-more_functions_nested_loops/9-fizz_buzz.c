@@ -10,7 +10,7 @@ int main(void)
 {
 	int iter;
 
-	for (iter = 1; iter < 100; iter++)
+	for (iter = 1; iter <= 100; iter++)
 	{
 		if ((iter % 3) == 0)
 			printf("Fizz");
@@ -21,7 +21,7 @@ int main(void)
 		if (((iter % 3) != 0) && ((iter % 5) != 0))
 			printf("%d", iter);
 
-		if (iter < 99)
+		if (iter < 100)
 			printf(" ");
 	}
 
