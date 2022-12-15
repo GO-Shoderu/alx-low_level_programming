@@ -13,3 +13,13 @@ NB: Before running any scripts please execute the command below for each respect
 		- you will need to execute the code below to test the script
 			 ./0-isuper
 
+	1-isdigit.c
+		- this c program will print out 1 for digit or 0 for not digit input
+		- you will need to execute the code below to test the script
+			./1-isdigit
+
+	2-mul.c
+		- this c program will multiply 2 values inputed and output the result
+		- you will need to execute the code below to test the script
+			./2-mul
+
