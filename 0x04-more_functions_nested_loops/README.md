@@ -23,3 +23,8 @@ NB: Before running any scripts please execute the command below for each respect
 		- you will need to execute the code below to test the script
 			./2-mul
 
+	3-print_numbers.c
+		- this c program will print out 0 - 9
+		- you will need to execute the code below to test the script
+			./3-print_numbers
+
