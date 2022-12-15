@@ -38,3 +38,8 @@ NB: Before running any scripts please execute the command below for each respect
                 - you will need to execute the code below to test the script
                         ./5-more_numbers
 
+	6-print_line.c
+		- this c program will print underscores based on user input
+		- you will need to execute the code below to test the script
+			./6-print_line
+
