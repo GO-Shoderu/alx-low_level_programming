@@ -13,5 +13,14 @@ int main(void)
     printf("%s\n", s);
     rev_string(s);
     printf("%s\n", s);
+
+    printf ("\n");
+
+    char t[11] = "Holberton!";
+
+    printf("%s\n", t);
+    rev_string(t);
+    printf("%s\n", t);
+    
     return (0);
 }
