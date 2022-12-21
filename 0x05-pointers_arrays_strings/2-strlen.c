@@ -3,7 +3,7 @@
 /**
  * _strlen - entry level.
  * @s: input from user
- * 
+ *
  * Return: Always integer returned
  */
 
