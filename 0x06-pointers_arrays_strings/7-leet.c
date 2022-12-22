@@ -2,7 +2,7 @@
 
 /**
 * leet - entry level
-* @str: input from user 
+* @str: input from user
 * Return: Always returns encoded *char
 */
 
