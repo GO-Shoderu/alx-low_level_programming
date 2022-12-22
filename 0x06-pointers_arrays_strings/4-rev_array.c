@@ -8,7 +8,7 @@
  */
 
 void reverse_array(int *a, int n)
-{	
+{
 	int i;
 	int limit = n;
 
@@ -18,6 +18,7 @@ void reverse_array(int *a, int n)
 	while (i < (limit / 2))
 	{
 		int temp = a[n];
+
 		a[n] = a[i];
 		a[i] = temp;
 		i++;
