@@ -8,14 +8,19 @@
  */
 
 void reverse_array(int *a, int n)
-{
+{	
+	int i;
+	int limit = n;
+
+	i = 0;
 	n--;
 
-	while (n > 0)
+	while (i < (limit / 2))
 	{
-		printf("%d, ", a[n]);
+		int temp = a[n];
+		a[n] = a[i];
+		a[i] = temp;
+		i++;
 		n--;
 	}
-
-	printf("%d\n", a[n]);
 }
