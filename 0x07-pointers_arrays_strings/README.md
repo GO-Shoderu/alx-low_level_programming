@@ -17,3 +17,9 @@ NB: Before running any scripts please execute the command below for each respect
                 - this C program will fill in the first n bytes of the memory area pointed to by dest with the contents in src
                 - you will need to execute the code below to test the script
                          ./1-memcpy
+
+	2-strchr.c
+                - this C program will find the first of c in array s
+                - you will need to execute the code below to test the script
+                         ./2-strchr
+
