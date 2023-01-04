@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+
 /**
  * _strchr- entry level.
  * @s: array input
@@ -17,6 +18,6 @@ char *_strchr(char *s, char c)
 			return (s + i);
 	}
 
-	return (NULL);
+	return (s + i);
 }
 
