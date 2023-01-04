@@ -12,3 +12,8 @@ NB: Before running any scripts please execute the command below for each respect
 		- this C program will fill in the first n bytes of the memory area pointed to by s with the constant byte b
 		- you will need to execute the code below to test the script
 			 ./0-memset
+
+	1-memcpy.c
+                - this C program will fill in the first n bytes of the memory area pointed to by dest with the contents in src
+                - you will need to execute the code below to test the script
+                         ./1-memcpy
