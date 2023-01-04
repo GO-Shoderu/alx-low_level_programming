@@ -23,3 +23,8 @@ NB: Before running any scripts please execute the command below for each respect
                 - you will need to execute the code below to test the script
                          ./2-strchr
 
+	3-strspn.c
+                - this C program will find occurrences
+                - you will need to execute the code below to test the script
+                         ./3-strspn
+
