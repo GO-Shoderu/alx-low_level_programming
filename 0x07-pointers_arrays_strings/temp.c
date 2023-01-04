@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
  * _strchr- entry level.
@@ -10,17 +9,14 @@
 
 char *_strchr(char *s, char c)
 {
-	while (*s)
-	{
-		if (*s == c)
-			return (s);
+	unsigned int i;
 
-		s++;
+	for (i = 0; s[i]; i++)
+	{
+		if (s[i] == c)
+			return (s + i);
 	}
 
-	if (c == '\0')
-		return (s);
-
-	return (NULL);
+	return (s + i);
 }
 
