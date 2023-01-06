@@ -15,4 +15,8 @@ NB: Before running any scripts please execute the command below for each respect
                 - you will need to execute the code below to test the script
                          ./1-print_rev_recursion
 
+	2-strlen_recursion.c
+                - this C program will return the length of a string calculated recursively
+                - you will need to execute the code below to test the script
+                         ./2-strlen_recursion
 
