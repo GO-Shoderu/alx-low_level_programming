@@ -1,0 +1,2 @@
+#ignore files created from compiling any c file
+/.*.swp
