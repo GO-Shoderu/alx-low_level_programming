@@ -10,3 +10,9 @@ NB: Before running any scripts please execute the command below for each respect
 		- you will need to execute the code below to test the script
 			 ./0-puts_recursion
 
+	1-print_rev_recursion.c
+                - this C program will output a string in reverse recursively
+                - you will need to execute the code below to test the script
+                         ./1-print_rev_recursion
+
+
