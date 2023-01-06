@@ -20,3 +20,7 @@ NB: Before running any scripts please execute the command below for each respect
                 - you will need to execute the code below to test the script
                          ./2-strlen_recursion
 
+	3-factorial.c
+                - this C program will return the factorial of an input calculated recursively
+                - you will need to execute the code below to test the script
+                         ./3-factorial
