@@ -1,17 +1,6 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - entry level.
- * @n: user input
- * Return: Always returns the calculated pow
- */
-
-int _sqrt_recursion(int n)
-{
-	return (_sqrt(n, 1));
-}
-
-/**
  * _sqrt - helper function
  * @x: user input
  * @y: controller
@@ -30,4 +19,17 @@ int _sqrt(int x, int y)
 		return (y);
 
 	return (_sqrt(x, y + 1));
+}
+
+/**
+ * _sqrt_recursion - entry level.
+ * @n: user input
+ * Return: Always returns the calculated pow
+ */
+
+int _sqrt_recursion(int n)
+{
+	int _root  = _sqrt(n, 1);
+
+	return (_root);
 }
