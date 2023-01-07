@@ -24,3 +24,8 @@ NB: Before running any scripts please execute the command below for each respect
                 - this C program will return the factorial of an input calculated recursively
                 - you will need to execute the code below to test the script
                          ./3-factorial
+
+	4-pow_recursion.c
+                - this C program will return the pow of an input calculated recursively
+                - you will need to execute the code below to test the script
+                         ./4-pow
