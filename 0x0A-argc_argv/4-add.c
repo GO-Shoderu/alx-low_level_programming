@@ -8,7 +8,7 @@
  * Return: always return a value
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int iter, sum = 0;
 
