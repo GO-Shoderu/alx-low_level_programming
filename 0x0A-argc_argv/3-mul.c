@@ -1,7 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main (int argc, char *argv[])
+/**
+ * main - multiplies
+ * @argc: size of comand on line
+ * @argv: array
+ * Return: always 0
+ */
+
+int main(int argc, char *argv[])
 {
 	argv[0] = argv[0];
 
@@ -9,6 +16,6 @@ int main (int argc, char *argv[])
 		printf("%s\n", "Error");
 	else
 		printf("%d\n", (atoi(argv[1]) * atoi(argv[2])));
-	
+
 	return (0);
 }
