@@ -1,6 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+ * main - adding values
+ * @argc: size of comand on line
+ * @argv: array
+ * Return: always return a value
+ */
+
 int main (int argc, char *argv[])
 {
 	int iter, sum = 0;
