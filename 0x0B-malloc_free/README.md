@@ -6,3 +6,6 @@ List of programs and there respective responsibility
 - 1-strdup.c
 	this is responsible for duplicating a string.
 
+- 2-str_concat.c
+	this is responsible for concatinating strings
+
