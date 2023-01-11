@@ -45,11 +45,9 @@ char *argstostr(int ac, char **av)
 			tor++;
 			iterator_ = 0;
 		}
-
 		if (tor < (iter - 1))
 			newArray[tor] = av[iterator][iterator_];
 	}
-
 	newArray[tor] = '\0';
 
 	return (newArray);
