@@ -13,7 +13,7 @@ char *_strdup(char *str)
 	unsigned int limit = 0, iterator;
 	char *newArray;
 
-	newArray = malloc(sizeof(*str));
+	newArray = (char *)malloc(sizeof(char) * (i + 1));
 
 	if (newArray == NULL || str == NULL)
 		return (NULL);
