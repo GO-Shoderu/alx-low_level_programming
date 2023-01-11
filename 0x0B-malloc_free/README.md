@@ -9,3 +9,5 @@ List of programs and there respective responsibility
 - 2-str_concat.c
 	this is responsible for concatinating strings
 
+- 3-alloc_grid.c
+	this is responsible for creating a 2 dimensional array
