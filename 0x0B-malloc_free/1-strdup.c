@@ -13,15 +13,18 @@ char *_strdup(char *str)
 	unsigned int limit = 0, iterator;
 	char *newArray;
 
+	if (str == NULL)
+		return (NULL);
+
 	while (str[limit] != '\0')
 	{
 		limit++;
 	}
 
-        newArray = (char *)malloc(sizeof(char) * (limit + 1));
+	newArray = (char *)malloc(sizeof(char) * (limit + 1));
 
-        if (newArray == NULL || str == NULL)
-                return (NULL);
+	if (newArray == NULL)
+		return (NULL);
 
 	for (iterator = 0; iterator <= limit; iterator++)
 		newArray[iterator] = str[iterator];
